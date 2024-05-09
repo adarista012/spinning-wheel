@@ -5,14 +5,12 @@ class CircleTrianglePainter extends CustomPainter {
   final double angle;
   final double width;
   final Color color;
-  final double scrollLen;
 
   CircleTrianglePainter({
     super.repaint,
     required this.angle,
     required this.width,
     required this.color,
-    required this.scrollLen,
   });
 
   @override
@@ -33,5 +31,5 @@ class CircleTrianglePainter extends CustomPainter {
 
   @override
   bool shouldRepaint(CircleTrianglePainter oldDelegate) =>
-      oldDelegate.scrollLen != scrollLen;
+      oldDelegate.angle != angle;
 }
