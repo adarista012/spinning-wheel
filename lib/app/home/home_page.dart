@@ -14,7 +14,14 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Spinning Wheel'),
+        title: Text(
+          'Spinning Wheel',
+          style: TextStyle(
+            color: Theme.of(context).primaryColor,
+            fontWeight: FontWeight.bold,
+            fontSize: 32.0,
+          ),
+        ),
       ),
       body: GetBuilder<HomeController>(
         init: HomeController(),

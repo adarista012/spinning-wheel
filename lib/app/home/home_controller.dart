@@ -20,7 +20,7 @@ class HomeController extends GetxController {
   void displayMessage(double degrees, BuildContext context) async {
     String? title = getTitle(degrees);
     String? content = getMeaning(degrees);
-    await Future.delayed(const Duration(milliseconds: 2824));
+    await Future.delayed(const Duration(milliseconds: 2124));
 
     showDialog(
       // ignore: use_build_context_synchronously
