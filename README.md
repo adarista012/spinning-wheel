@@ -14,7 +14,8 @@ A Flutter project that simulate a rullete whell.
 
 `fluttr run`
 
-![ezgif com-video-to-gif-converter](https://github.com/adarista012/spinning-wheel/assets/74845162/184adff6-3dfd-4e95-86da-a3c2dafad67f)
+![ezgif com-video-to-gif-converter](https://github.com/adarista012/spinning-wheel/assets/74845162/219f379e-93c6-497d-ba31-68b96ae70b3d)
+
 
 
 
