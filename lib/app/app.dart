@@ -1,5 +1,5 @@
-import 'package:disha_spinning_wheel/app/home/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:spinning_wheel/app/home/home_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

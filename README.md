@@ -1,4 +1,4 @@
-# disha_spinning_wheel
+# Spinning Wheel
 
 A new Flutter project.
 

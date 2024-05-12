@@ -1,9 +1,9 @@
-import 'package:disha_spinning_wheel/app/home/home_controller.dart';
-import 'package:disha_spinning_wheel/app/home/widgets/rulette.dart';
-import 'package:disha_spinning_wheel/app/home/widgets/spin_button.dart';
-import 'package:disha_spinning_wheel/app/home/widgets/triangle.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
+import 'package:spinning_wheel/app/home/home_controller.dart';
+import 'package:spinning_wheel/app/home/widgets/rulette.dart';
+import 'package:spinning_wheel/app/home/widgets/spin_button.dart';
+import 'package:spinning_wheel/app/home/widgets/triangle.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

@@ -1,6 +1,6 @@
-import 'package:disha_spinning_wheel/app/home/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
+import 'package:spinning_wheel/app/home/home_controller.dart';
 
 class SpinButton extends StatelessWidget {
   final double width;

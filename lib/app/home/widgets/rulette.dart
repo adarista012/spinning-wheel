@@ -1,5 +1,5 @@
-import 'package:disha_spinning_wheel/app/helpers/custom_paint_list.dart';
 import 'package:flutter/material.dart';
+import 'package:spinning_wheel/app/helpers/custom_paint_list.dart';
 
 class Rulette extends StatelessWidget {
   final double width;

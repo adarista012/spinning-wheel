@@ -1,5 +1,5 @@
-import 'package:disha_spinning_wheel/app/helpers/triangle_painter.dart';
 import 'package:flutter/material.dart';
+import 'package:spinning_wheel/app/helpers/triangle_painter.dart';
 
 class Triangle extends StatelessWidget {
   final double width;
