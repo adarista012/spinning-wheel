@@ -12,11 +12,9 @@ class HomeController extends GetxController {
   void spin(BuildContext context) {
     _disableButton = true;
     update();
-    _angle += (Random().nextDouble() * 2 * pi) + (8 / 4) * pi;
+    _angle += (Random().nextDouble() * 2 * pi) + 2 * ((8 / 4) * pi);
     update();
-
-    // ignore: use_build_context_synchronously
-    displayMessage(_angle - (8 / 4) * pi, context);
+    displayMessage(_angle - 2 * ((8 / 4) * pi), context);
   }
 
   void displayMessage(double degrees, BuildContext context) async {
