@@ -1,17 +1,17 @@
 # Spinning Wheel
 
-A new Flutter project.
+A Flutter project that simulate a rullete whell.
 
-## Getting Started
+## About this project
 
-This project is a starting point for a Flutter application.
+- GetX: That help to separate the UI from logic.
 
-A few resources to get you started if this is your first Flutter project:
+## How to run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+`fluttr clean`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`fluttr pub get`
+
+`fluttr run`
+
 ![ezgif com-video-to-gif-converter](https://github.com/adarista012/spinning-wheel/assets/74845162/184adff6-3dfd-4e95-86da-a3c2dafad67f)
